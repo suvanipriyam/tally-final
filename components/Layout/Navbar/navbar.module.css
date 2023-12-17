@@ -1,0 +1,17 @@
+.nav-link.active {
+  color: #fd5b03;
+  background: #ffffff;
+}
+.nav-link{
+    color : red;
+}
+@media (max-width: 992px) {
+    .navbar-logo{
+        display: none;
+    }
+}
+@media (max-width: 435px) {
+    .owl-container{
+        width: '10rem',
+    }
+}

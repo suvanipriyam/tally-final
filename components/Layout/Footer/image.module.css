@@ -1,0 +1,24 @@
+/* Your existing styles */
+.animated-img {
+  filter: invert(0);
+  width: 200px;
+  margin-top: 700px;
+  /* Add any other styles you need here */
+}
+
+/* Media query for screens with a width less than 435px */
+@media (max-width: 435px) {
+  .animated-img {
+    margin-top: 10px;
+    height:90%;
+    width:180px; /* Adjust the margin as needed for smaller screens */
+  }
+}
+
+/* Centering the image using flexbox */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   /* Assuming you want the container to take the full viewport height */
+}
